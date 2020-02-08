@@ -25,10 +25,11 @@ function sayMyName() {
   var name = "Cricky";
 
   sayMy();
-
   function sayMy() {
-    var name ="kristin";
+    name ="kristin";
     console.log(name);
+
+    sayMy();
 
   }
 }
